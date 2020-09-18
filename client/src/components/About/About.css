@@ -1,0 +1,40 @@
+.AboutBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 75vw;
+    border: 0px solid black;
+    color:#05386B;
+    font-weight: bold;
+}
+
+.aboutMain{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #379683;
+    margin-top: 2vh;
+    width: 45vw;
+    height: 40vh;
+    box-shadow: .5vw 1vh .5vw #5CDB95;
+}
+
+#participantLogoA,#creditsLogoA{
+    height: 2vh;
+}
+
+#creditsStatement, #whaleStatement{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ #whaleLogoA, #ethereumLogoA{
+    height: 3vh; 
+}
+
+
+

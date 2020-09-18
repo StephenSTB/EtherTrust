@@ -1,0 +1,120 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 75vw;
+    border: 0px solid black;
+    color:#05386B;
+    font-weight: bold;
+}
+
+.ParticipantInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #379683;
+    margin-top: 2vh;
+    width: 45vw;
+    height: 25vh;
+    box-shadow: .5vw 1vh .5vw #5CDB95;
+}
+
+
+#depositBox{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#depositInput{
+    height:2.75vh;
+    width: 7vw;
+    background-color: #EDF5E1;
+    border:none;
+    text-align: center;
+    color:#05386B;
+    font-weight: bold;
+}
+
+#sendDeposit{
+    background-color: #EDF5E1;
+    border:none;
+    height:3vh;
+    width:7vw;
+    color:#05386B;
+    font-weight: bold;
+    box-shadow: .2vw .2vh .2vw #05386B;
+}
+
+#sendDeposit:hover{
+    background-color:#5CDB95;
+}
+
+#withdrawBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#withdraw{
+    background-color: #EDF5E1;
+    border:none;
+    height:3vh;
+    width:7vw;
+    color:#05386B;
+    font-weight: bold;
+    margin-left: 1vw;
+    box-shadow: .2vw .2vh .2vw #05386B;
+}
+
+#withdraw:hover{
+    background-color:#5CDB95;
+}
+
+.ContractInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #379683;
+    margin-top: 2vh;
+    width: 45vw;
+    height: 15vh;
+    box-shadow: .5vw 1vh .5vw #5CDB95;
+}
+
+#contractEther{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex:40%;
+}
+
+#etherLogo{
+    height: 7.5vh;
+
+    margin: 4vh;
+}
+
+#contractBalance{
+    font-size: 14pt ;
+}
+
+#contractParticipants{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex:60%;
+}
+
+#participantLogo{
+    height: 7.5vh;
+}
+
+#participantsNumber{
+    font-size: 14pt ;
+}

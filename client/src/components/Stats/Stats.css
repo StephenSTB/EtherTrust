@@ -1,0 +1,70 @@
+.Stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 75vw;
+    border: 0px solid black;
+    color:#05386B;
+    font-weight: bold;
+}
+
+.statContractInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #379683;
+    margin-top: 2vh;
+    width: 45vw;
+    height: 40vh;
+    box-shadow: .5vw 1vh .5vw #5CDB95;
+}
+
+.topInfo{
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+}
+
+#contractEther, #contractCredits{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 50%;
+}
+
+#etherLogo{
+    margin: 4vh;
+}
+
+
+.bottomInfo{
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+}
+
+#contractParticipants,#whaleStatus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 50%;
+}
+
+
+#whaleLogo, #creditsLogo
+{
+    margin: 2vh;
+}
+
+#contractBalance, #participantsNumber, #whaleAmount, #totalCredits{
+    font-size: 14pt ;
+}
+
+
+#etherLogo, #participantLogo, #whaleLogo, #creditsLogo{
+    height: 7.5vh;
+}

@@ -1,0 +1,33 @@
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EDF5E1;
+  background-image: url("./logo/logoLargeBackground.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 100vh; 
+  width: 100vw;
+}
+
+#copyright{
+  color:#05386B;
+  margin-top: auto;
+}
+
+/* #05386B
+   #379683
+   #5CDB95
+   #8EE4AF
+   #EDF5E1
+*/
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,68 @@
+.MainBar{
+    display: flex;
+    flex-direction: row;
+    height: 6vh;
+    width: 99vw;
+    padding-right: 1vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #5CDB95;
+}
+
+.accountBox{
+    flex: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 10vw;
+    height: 6vh;
+    margin-left: auto;
+    align-items: center;
+    justify-items: center;
+    color: #05386B; 
+    font: Courier;
+    font-weight: bold;
+}
+
+#account{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.links{
+    flex: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10vw;
+}
+
+#home, #about, #stats{
+    display: flex;
+    flex-direction: column;
+    width : 10vw;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    color: #05386B; 
+    font: Courier;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#home:hover, #about:hover, #stats:hover{
+    background-color:#379683; 
+}
+/*
+#logo{
+    flex:10%;
+    display: flex;
+
+}*/
+
+/* #05386B
+   #379683
+   #5CDB95
+   #8EE4AF
+   #EDF5E1
+*/
